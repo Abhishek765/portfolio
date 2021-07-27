@@ -1,0 +1,87 @@
+/* .active_class {
+  color: red;
+  border-bottom: 1px solid red;
+} */
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 36px;
+  left: 32px;
+  top: 32px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #fff;
+}
+
+/* Sidebar wrapper styles */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100vh;
+  overflow-x: hidden;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+.bm-menu {
+  background: linear-gradient(39.97deg, #00f261c9 0.79%, #0a4885 79.29%);
+  padding: 2.5em 1.5em 0 0;
+  height: 100vh;
+  overflow: hidden !important;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  padding: 0.8em;
+}
+
+.menu-item {
+  position: relative;
+  font-size: 2em;
+  text-decoration: none;
+  color: #fff;
+  font-family: Wontserrat;
+  font-style: normal;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.menu-item:before {
+  content: "";
+  height: 0.125rem;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.375rem;
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+.active_class {
+  font-weight: 500;
+}
+
+.menu-item:hover:before,
+.active_class:before {
+  transform: scaleX(1);
+  height: 3px;
+}

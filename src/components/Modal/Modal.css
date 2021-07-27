@@ -1,0 +1,82 @@
+.modal_overlay {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_container {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+  font-style: normal;
+}
+.upper_section {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+.upper_section > h1 {
+  margin: 0;
+}
+.close {
+  margin: 0;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.middle_section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.middle_section > * {
+  margin: 5px 0;
+}
+.lower_section {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px 0;
+}
+
+.modal_btn {
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  margin-left: 15px;
+  padding: 12px 24px;
+  transition: background-color 0.3s;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.modal_btn:hover {
+  cursor: pointer;
+}
+.btn_green {
+  background-color: #2ecc71;
+}
+.btn_green:hover,
+.btn_green:focus {
+  background-color: #27ae60;
+}
+.btn_red {
+  background-color: #e74c3c;
+}
+
+.btn_red:hover,
+.btn_red:focus {
+  background-color: #c0392b;
+}
