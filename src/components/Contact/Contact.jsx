@@ -64,7 +64,7 @@ const Contact = () => {
                     <img src={instagram} alt='social' />
                 </a>
 
-                <a href='https://madhavbahl.tech' className='social-icon'>
+                <a href='https://Abhishek765.github.io/portfolio/' className='social-icon'>
                     <img src={web} alt='social' />
                 </a>
             </div>
