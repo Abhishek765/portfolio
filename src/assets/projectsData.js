@@ -43,6 +43,6 @@ export const projectsData = [
             'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits.',
         imageUrl: 'https://user-images.githubusercontent.com/43133456/127148928-4c38e5ee-316b-41c1-8d7e-66b460c0f52c.png',
         videoUrl: '',
-        projectUrl: 'http://madhavbahl.tech/portfolio/',
+        projectUrl: 'https://Abhishek765.github.io/portfolio/',
     },
 ];
