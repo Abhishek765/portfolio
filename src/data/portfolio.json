@@ -1,0 +1,85 @@
+{
+  "personalInfo": {
+    "name": "Abhishek Vishwakarma",
+    "role": "Full Stack Developer",
+    "headline": "Full Stack Developer | MERN | Next.js | DevOps Enthusiast",
+    "about": "I am a passionate Gen-AI Full Stack Developer based in Bangalore, India. Currently working at Cimpress as a Senior Software Engineer, I specialize in building scalable web applications and exploring new technologies like DevOps and System Design. I believe in learning by doing and turning complex problems into elegant solutions.",
+    "location": "Bangalore, India",
+    "experience": [
+      {
+        "company": "Cimpress India",
+        "role": "Senior Software Engineer",
+        "period": "Present",
+        "description": "In Artworks Processing team, Leading development of scalable web applications and collaborating with developers and cross-functional teams to deliver high-quality software solutions."
+      },
+      {
+        "company": "FlyFin AI",
+        "role": "Software Engineer",
+        "period": "Previous",
+        "description": "Worked on cutting-edge AI-powered financial solutions and full-stack development."
+      }
+    ]
+  },
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Redux",
+    "MongoDB",
+    "Tailwind CSS",
+    "Java",
+    "C++",
+    "Git",
+    "Firebase"
+  ],
+  "testimonials": [
+    {
+      "name": "Tapan A",
+      "role": "Sr. Fullstack @ ethos",
+      "company": "FlyFin AI",
+      "text": "Abhishek consistently demonstrated outstanding technical skills and a keen ability to solve complex problems. During our time working together at FlyFin AI, he accomplished significant milestones. In addition to his technical expertise, Abhishek is dependable, diligent, and exhibits a strong work ethic. His positive outlook and adaptability make him a tremendous asset to any team. I highly recommend Abhishek for his exceptional technical skills, collaborative mindset, and unwavering dedication to tackling challenges.",
+      "rating": 5
+    },
+    {
+      "name": "phmminhtun336",
+      "role": "Client(from Fiverr)",
+      "company": "Vietnam",
+      "text": "He is a good developer. Delivered the project on time with good quality. will hire again for future projects.",
+      "rating": 5
+    }
+  ],
+  "projects": [
+    {
+      "title": "Nexus Task",
+      "description": "A full-stack task management application built with TypeScript, offering robust task tracking and organization features.",
+      "tech": ["TypeScript", "React", "Node.js", "MongoDB"],
+      "link": "https://github.com/Abhishek765/nexus-task"
+    },
+    {
+      "title": "node-nucleus",
+      "description": "A powerful CLI tool to initialize Node.js TypeScript backend projects with ease, streamlining the setup process.",
+      "tech": ["Node.js", "TypeScript", "CLI", "JavaScript"],
+      "link": "https://github.com/Abhishek765/node-nucleus"
+    },
+
+    {
+      "title": "MusicSuite",
+      "description": "An innovative Android application that plays music based on the user's facial expressions and mood.",
+      "tech": ["Android", "Machine Learning", "Kotlin", "Java"],
+      "link": "https://github.com/Abhishek765/MusicSuite"
+    },
+    {
+      "title": "Disney+ Clone",
+      "description": "A scalable Disney+ clone featuring a responsive UI, movie details via MovieDatabase API, and Firebase authentication.",
+      "tech": ["React", "Redux", "Firebase", "Styled Components"],
+      "link": "https://github.com/Abhishek765/disney-plus-features"
+    }
+  ],
+  "socials": {
+    "github": "https://github.com/Abhishek765",
+    "linkedin": "https://www.linkedin.com/in/abhishek-vishwakarma17/",
+    "email": "mailto:vishwakarmaabhishek31@gmail.com"
+  }
+}
